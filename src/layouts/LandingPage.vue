@@ -1,9 +1,8 @@
 <template>
   <div>
-  <p>Featured</p>
-  <InfoCard/>
-  <div v-for="(item, index) of items" :key="index">
-    <p>{{ item }}</p>
+  <h3>Featured</h3>
+  <div class="container">
+  <InfoCard :items="items"/>
   </div>
   </div>
 </template>
@@ -17,11 +16,22 @@ export default {
   },
   data () {
     return {
-      items: [{ title: 'Kira', subtitle: `It's How You Know What's In Your Contracts`, avatar: `kira.jpg`, description: `Kira is a powerful machine learning software that identifies, extracts and analyzes text in your contracts and other documents` }, { title: 'Doxly', subtitle: `Secure Portal for End to End Transactions`, avatar: `doxly.jpg`, description: `Manage the entire legal transaction process from dilligence to closing` }, { title: 'Clause', subtitle: `Connected Contracting`, avatar: `clause.jpg`, description: `Clause builds the technology infrastructure for connected contracts to increase the vlaue and improve the management of your business agreements` }]
+      items: []
     }
   }
 }
 </script>
 
 <style>
+
+h3 {
+  font-size: 25px;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 </style>
