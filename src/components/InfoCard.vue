@@ -17,7 +17,7 @@
 </template>
 <script>
 export default {
-  name: 'infoCard',
+  name: 'InfoCard',
   data () {
     return {
       checked: false
