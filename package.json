@@ -7,7 +7,7 @@
   "author": "Thomas Ham",
   "private": true,
   "scripts": {
-    "start":" yarn start",
+    "start":"quasar dev",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
   },
