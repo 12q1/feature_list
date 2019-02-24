@@ -3,7 +3,10 @@
     <q-item>
     <q-item-side avatar="/statics/icons/icon-384x384.png"/>
     <q-item-main>
-        <q-card-title>Kira<p slot="subtitle">It's How You Know What's In Your Contacts</p></q-card-title>
+        <q-card-title>Kira
+          <p slot="subtitle">It's How You Know What's In Your Contacts</p>
+          <q-checkbox slot="right" v-model="checked"/>
+        </q-card-title>
     </q-item-main>
     </q-item>
     <q-card-separator/>
@@ -14,7 +17,12 @@
 </template>
 <script>
 export default {
-  name: 'infoCard'
+  name: 'infoCard',
+  data () {
+    return {
+      checked: false
+    }
+  }
 }
 </script>
 <style>

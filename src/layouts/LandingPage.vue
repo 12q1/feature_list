@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import InfoCard from '../components/infoCard'
+import InfoCard from '../components/InfoCard'
 export default {
-  name: 'MyLayout',
+  name: 'LandingPage',
   components: {
     InfoCard
   }
