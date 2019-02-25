@@ -1,9 +1,10 @@
 <template>
-    <div class="container">
-    <div v-for="(item, index) of items" :key="index">
+    <div class="row">
+    <div class="col-4" v-for="(item, index) of items" :key="index">
+    <div>
     <q-card>
     <q-item>
-    <q-item-side :avatar="item.avatar"/>
+    <q-item-side class="logo" :avatar="item.avatar"/>
     <q-item-main>
         <q-card-title>{{ item.title }}
           <p slot="subtitle">{{ item.subtitle }}</p>
@@ -18,6 +19,7 @@
     </q-card>
     </div>
     </div>
+    </div>
 </template>
 <script>
 export default {
@@ -29,5 +31,6 @@ export default {
   }
 }
 </script>
-<style>
+<style lang="stylus">
+@import '~variables'
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div>
   <h3>Featured</h3>
-  <div class="container">
-  <InfoCard :items="items"/>
+  <div>
+  <InfoCard/>
   </div>
   </div>
 </template>
@@ -22,16 +22,6 @@ export default {
 }
 </script>
 
-<style>
-
-h3 {
-  font-size: 25px;
-  padding: 15px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
+<style lang="stylus" scoped>
+@import '~variables'
 </style>
