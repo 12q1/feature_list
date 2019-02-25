@@ -1,3 +1,4 @@
+//this code creates a minimal express server, it is necessary for heroku deployment additional changes to scripts are in package.json
 const
     express = require('express')
     serveStatic = require('serve-static')

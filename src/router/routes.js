@@ -2,7 +2,7 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/LandingPage.vue'),
+    component: () => import('layouts/FeatureLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') }
     ]

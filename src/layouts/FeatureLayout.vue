@@ -8,7 +8,7 @@
 <script>
 import InfoCard from '../components/InfoCard'
 export default {
-  name: 'LandingPage',
+  name: 'FeaturePage',
   components: {
     InfoCard
   },
