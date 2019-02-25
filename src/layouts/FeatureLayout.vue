@@ -1,16 +1,14 @@
 <template>
   <div>
-  <h3>Featured</h3>
-  <div class="container">
-  <InfoCard :items="items"/>
-  </div>
+  <h4 class="q-ma-xs q-pb-md">Featured</h4>
+  <InfoCard/>
   </div>
 </template>
 
 <script>
 import InfoCard from '../components/InfoCard'
 export default {
-  name: 'LandingPage',
+  name: 'FeaturePage',
   components: {
     InfoCard
   },
@@ -22,16 +20,10 @@ export default {
 }
 </script>
 
-<style>
+<style lang="stylus">
+@import '~variables'
 
-h3 {
-  font-size: 25px;
-  padding: 15px;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
+body
+  background $primary
 
 </style>
