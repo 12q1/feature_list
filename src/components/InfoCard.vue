@@ -4,7 +4,7 @@
     <div>
     <q-card>
     <q-item class="row">
-    <q-item-side :image="item.avatar"/>
+    <q-item-side class="logo" :image="item.avatar"/>
     <q-item-main class="q-ma-xs">
         <q-card-title>{{ item.title }}
           <p slot="subtitle">{{ item.subtitle }}</p>
@@ -31,3 +31,5 @@ export default {
   }// default data stored as an array here, breaking up this long line of code causes lint issues.
 }
 </script>
+<style>
+</style>

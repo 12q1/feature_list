@@ -1,8 +1,8 @@
 {
-  "name": "reyen_court_assignment",
+  "name": "reynen_court_assignment",
   "version": "0.0.1",
-  "description": "A quasar/vue app built for Reyen Court",
-  "productName": "Reyen Court Assignment",
+  "description": "A quasar/vue app built for Reynen Court",
+  "productName": "Reynen Court Assignment",
   "cordovaId": "org.cordova.quasar.app",
   "author": "Thomas Ham",
   "private": true,
